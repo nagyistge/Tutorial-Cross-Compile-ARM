@@ -17,7 +17,7 @@ I'll use Sourcery CodeBench Lite Edition for ARM GNU/Linux
 - Download the toolchain :
 http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/arm-gnu-linux
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/1.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/1.png)
 
 ### Hint:
 You will need to register to download the item.
@@ -39,7 +39,7 @@ Help > Install New Software..
 Enter "http://download.eclipse.org/tools/cdt/releases/kepler" to Work With: area and search
 Download all CDT features
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/2.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/2.png)
 
 ### Hint:
   - C/C++ Development Tools is enough to develop simple C/C++ applications but more features is never bad :)
@@ -51,14 +51,14 @@ Download all CDT features
 
 Right click to the Navigator or Project Explorer View and click New > C++ Project
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/3.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/3.png)
 
 Write project name
 Select Empty Project
 Select Linux GCC
 Click Finish
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/4.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/4.png)
 
 ## 5) Configure for Cross-Compile
 
@@ -69,22 +69,22 @@ Write a new name and copy configuration from Debug or Release.
 Click OK
 Set your new configuration as Active
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/5.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/5.png)
 
 -Under Tool Settings > GCC C++ Compiler
 Write /home/db/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin/arm-none-linux-gnueabi-g++ as Command.
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/6.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/6.png)
 
 -Go to Includes tab under GCC C++ Compiler
 Add /home/db/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/arm-none-linux-gnueabi/include/c++/4.7.3 as include folder
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/7.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/7.png)
 
 -Go to GCC C++ Linker Tab
 Write /home/db/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin/arm-none-linux-gnueabi-g++ as Command.
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/8.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/8.png)
 
 ### Warning!
 - You have to change /home/db part to mention your home folder.
@@ -95,8 +95,8 @@ Apply and close
 ## 6) Compile the project
 
 Create a source file extended as .cpp
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/9.PNG)
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/10.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/9.png)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/10.png)
 
 Write a sample code as below and save:
 ```C
@@ -110,10 +110,10 @@ Write a sample code as below and save:
 Click the little arrow on build icon. 
 Select your cross compile builder.
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/11.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/11.png)
 
 Look console and see that build has been finished successfully. You will see something like that.
 
-![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/12.PNG)
+![alt tag](https://github.com/dBeker/Cross-Compile-ARM/blob/master/Images/12.png)
 
 Your program has been compiled and ready to work with at your pandaboard.
