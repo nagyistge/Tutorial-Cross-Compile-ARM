@@ -16,7 +16,7 @@ While making this, I've read the instructions at http://www.lvr.com/eclipse1.htm
 
 I'll use Sourcery CodeBench Lite Edition for ARM GNU/Linux
 - Download the toolchain :
-http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/arm-gnu-linux
+    http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/arm-gnu-linux
 
 
 ### Hint:
@@ -30,7 +30,7 @@ host# sudo tar -xjvf path/to/tar/file
 
 ## 2) Install Eclipse
 
-host# sudo apt-get install eclipse
+    host# sudo apt-get install eclipse
 
 ## 3) Install CDT Add-ons
 
