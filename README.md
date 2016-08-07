@@ -90,12 +90,14 @@ Create a source file extended as .cpp
 
 
 Write a sample code as below and save:
+```C
     #include <iostream>
     using namespace std;
     int main() {
      cout <<"Cross Compiled"<<endl;
      return 0;
     }
+```
 Click the little arrow on build icon. 
 Select your cross compile builder.
 
