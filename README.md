@@ -5,7 +5,6 @@ In this article, I'll explain how to cross-compile C/C++ code for Arm based Pand
 
 While making this, I've read the instructions at http://www.lvr.com/eclipse1.htm and imitated them to PandaBoard-ES.
 
-
 ## Requirements :
 
 ### Host Machine :
@@ -26,11 +25,11 @@ I've downloaded and worked with Sourcery CodeBench Lite 2013.05-24
 - Download tar file
 - Extract it to /home/username/
 
-    host# sudo tar -xjvf path/to/tar/file
+`host# sudo tar -xjvf path/to/tar/file`
 
 ## 2) Install Eclipse
 
-    host# sudo apt-get install eclipse
+`host# sudo apt-get install eclipse`
 
 ## 3) Install CDT Add-ons
 
